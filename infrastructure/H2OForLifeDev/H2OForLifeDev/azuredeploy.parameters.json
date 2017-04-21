@@ -1,0 +1,28 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "dnsNamePrefix": {
+      "value": "H2O-Dev"
+    },
+    "agentCount": {
+      "value": 1
+    },
+    "agentVMSize": {
+      "value": "Standard_A2"
+    },
+    "linuxAdminUsername": {
+      "value": "azureuser"
+    },
+    "orchestratorType": {
+      "value": "Swarm"
+    },
+    "masterCount": {
+      "value": 1
+    },
+    "sshRSAPublicKey": {
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDo9yvea68Z/scY8q2QWzDX0HnWMWULCWWyrUApsXc3YOB96XQNUiHsdLGw5iz/gpR+LOxW8qLrn0wU/kEwNcH9Urk5ASjDlw3Ry1rG93VRBxJbD8JsG9EEeIxuZabT1bsCZ0ZITHNCvwIshXhHPNAWV236oYpd7xw2VnNJ0l1hhHqxYf3qpN3TrE3UPlrpTyJeQy/zcobuWV3QUUqDl7wiJgNe8JXSnTdeJI+yNqA421zpWWRGn/eK8qXOPUtJlRPulFg6mIobRnliX6FEyQTeQez3WMTwEkXr/7XI0GB/GaANy6w15c8A5P0sJ/qEjKY41E8biDP+Mpakicrt4i+GZpnAM7NmwHsqU2l3aR3oFegeZNNE0u7ejaDaMqiZz4bNq1/+Hx9kJiqwcNRxBq5rQd9cpk7xL8Mz8hzIYKHG29knsPIrnY3Ld/49kTlL3EvN9LMWEQw7Nk2DI4KkgS9tHqrWVWmbeauUktTqAKPLotJIVtQcW1DKT8xlSW3ws9Xj4wxwIP5EemPNvIniwA+a2b0rzXTCpuYSjFM0SPCnI5D//BC6vr8Cvt6y12lc0ICn/+zJm3aT4ZsXye3/xckxx06Fid/OBGCNGJLTHkOVFQmwrXtn9Ya5j5bqQ6iJ3hErTiPsrzIHooJ4HbzVGAAVDX2PUwkI31iJ9JZqI9FuYQ== davidmilner@phidiax.com"
+
+    }
+  }
+}

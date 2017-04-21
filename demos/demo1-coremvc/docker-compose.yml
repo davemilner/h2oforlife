@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  demo1-coremvc:
+    image: demo1-coremvc
+    build:
+      context: ./demo1-coremvc
+      dockerfile: Dockerfile
